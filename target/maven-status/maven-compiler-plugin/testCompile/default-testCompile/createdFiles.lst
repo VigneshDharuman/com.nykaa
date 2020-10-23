@@ -1,0 +1,8 @@
+com\nykaa\testCases\BaseClass.class
+com\nykaa\testCases\TC_LoginDDT.class
+com\nykaa\utilities\XLUtils.class
+com\nykaa\pageObjects\LoginPage.class
+com\nykaa\utilities\Reporting.class
+com\nykaa\testCases\TC_Fragrance.class
+com\nykaa\testCases\TC_login_config.class
+com\nykaa\utilities\ReadConfig.class

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+
+<suite name="nykaaEcommerce">
+
+	<listeners>
+		<listener class-name="com.nykaa.utilities.Reporting" />	
+	</listeners>
+
+	<test name="Nykaa Test">
+	
+		<parameter name="browser" value="chrome" />
+<!-- 		<parameter name="login_or_guest" value="guest" />  -->
+		<classes>
+			<class name="com.nykaa.testCases.TC_Fragrance" />		
+		</classes>
+
+	</test>
+
+</suite>
